@@ -1,0 +1,199 @@
+.footerparentcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.footerupperparts{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+.companyname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 38%; 
+}
+.companyname h2{
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: flex-start;
+}
+.companyname p{
+    font-size: 1rem;
+    align-self: flex-start;
+}
+.iconssocilamedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 50%;
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 22px;
+    border: 1px solid gray;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 23%;
+    margin: 0% 2%;
+    border-radius: 50%;
+}
+.twitter:hover{
+    border: 1px solid red;
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1);
+    color: red;
+    cursor: pointer;
+}
+.twitter a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 15%;
+    margin: 0% 1%; 
+}
+.links h4{
+    align-self: flex-start;
+    font-weight: bold;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    align-self: flex-start;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+.links a:hover{
+    color: red;
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+}
+.ourservices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 15%;
+    margin: 0% 1%;
+}
+.ourservices h4{
+    align-self: flex-start;
+    font-weight: bold; 
+}
+.ourservices a{
+    text-decoration: none;
+    color: black;
+    align-self: flex-start;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+.ourservices a:hover{
+    color: red;
+    transform-style: preserve-3d;
+    transition-delay: 0.3s;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 19%;
+    margin: 0% 1%;
+}
+.contactus h4{
+    align-self: flex-start;
+    font-weight: bold; 
+}
+.contactus p{
+    align-self: flex-start;
+    width: 70%; 
+}
+.paragraphicc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-direction: row;
+    width: 99%;
+}
+.paragraphicc strong{
+    width: 100%;
+    margin: 0% 0.7%;
+}
+.paragraphicc p{
+    width: 65%;
+    margin: 0% 0.7%;
+}
+.footerlowerparts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 70%;
+}
+.footerlowerparts p{
+    color: black;
+    width: 50%;
+    align-self: center !important;
+    text-align: center;
+}
+.footerlowerparts a{
+    text-decoration:none;
+    color: red;
+}
+/* =============== */
+.arrowtotop{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 60px;
+}
+.arrowtotop a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding:12px 15px;
+    bottom: 10px;
+    position: fixed;
+    right: 0;
+    border-radius: 10px;
+    z-index: 99999;
+}

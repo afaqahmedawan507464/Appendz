@@ -1,0 +1,1266 @@
+@media screen and (min-width:1200px) and (max-width:1900px){
+    .desktopnavigationmenu {
+        width: 70%;
+    }
+    .buttonsdiv {
+        width: 11%;
+    }
+    .signupbuttoncontainer {
+        width: 30%;
+        margin-left: -30%;
+    }
+    .emailtextandsignupbutton {
+        width: 98%;
+    }
+    .btnsignupproperty {
+        width: 70%;
+    }
+    .companys {
+        margin-top: 14%;
+    }
+    .portfoliotitleandparagraph {
+        width: 70%;
+    }
+    .teamtitleandparagraph {
+        width: 70%;
+    }
+    .blogpart {
+        width: 70%;
+    }
+    .contacttitleandparagraph {
+        width: 70%;
+    }
+}
+/* ========================= */
+@media screen and (min-width:950px) and (max-width:1199px){
+    .compnayname {
+        width: 11%;
+        margin:0% 1%;
+    }
+    .compnayname h1 {
+        font-size: 20px;
+    }
+    .desktopnavigationmenu {
+        width: 65%;
+        padding: 10px 0px;
+        align-items: flex-end;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .desktopnavigationmenu nav ul li a{
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .buttonsdiv {
+        width: 15%;
+    }
+    .buttonsdiv button {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .signupbuttoncontainer {
+        width: 30%;
+        margin-left: -32%;
+    }
+    .emailtextandsignupbutton {
+        width: 98%;
+        
+    }
+    .btnsignupproperty {
+        width: 60%;
+        padding: 10px 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .companys {
+        margin-top: 18%;
+    }
+    .abouttextandreadmorebutton {
+        width: 40%;
+    }
+    .aboutus {
+        width: 35%;
+    }
+    .abouttextandreadmorebutton h2 {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+    .abouttextandreadmorebutton p {
+        font-size: 15px;
+    }
+    .clientcountdown {
+        width: 20%;
+    }
+    .servicedetailed {
+        margin: 0% 0%;
+    }
+    .barredandgray {
+        width: 99%;
+        padding: 0px;
+    }
+    .shade4{
+        height: 20%;
+    }
+    .shade5{
+        height: 30%;
+    }
+    .shade8{
+        height: 80%;
+    }
+    .shade9{
+        height: 80%;
+    }
+    .shade1,.shade2,.shade3,.shade6,.shade7{
+        height: 70%;
+    }
+    .sedata {
+        margin: 0% 5%;
+    }
+    .aboutfeature {
+        width: 58%;
+    }
+    .portfoliotitleandparagraph {
+        width: 70%;
+    }
+    
+    .price {
+        width: 80%;
+    }
+    .portfoliotitleandparagraph p{
+        text-align: center;
+    }
+    .chkdata1 p{
+        font-size: 14px;
+    }
+    .chkdata2 p{
+        font-size: 14px;
+    }
+    .pricecardsdetailed {
+        width: 99%;
+        padding: 15px 5px;
+    }
+    .faqsquestioncontainer {
+        width: 56%;
+    }
+    .faqsquestion {
+        width: 99%;
+    }
+    .teamtitleandparagraph {
+        width: 70%;
+    }
+    .teamtitleandparagraph p{
+        text-align: center;
+    }
+    .teammemberdetaileddata {
+        width: 33%;
+    }
+    .teammemberdetaileddata h3 {
+        font-size: 1.5rem;
+    }
+    .calltoactioncontainer h2 {
+        width: 60%;
+    }
+    .userimages {
+        width: 30%;
+    }
+    .testimonialtitledata p {
+        font-size: 16px;
+    }
+    .appheading p {
+        font-size: 13px;
+    }    
+    .teammemberdetaileddata p {
+        font-size: 14px;
+    }
+    .blogtitleandparagraph p{
+        text-align: center;
+    }
+    .blogpart {
+        width: 90%;
+    }
+    .blogpostdetailed h3 {
+        font-size: 1.3rem;
+    }
+    .authorblogimage {
+        width: 37%;
+    }
+    .contacttitleandparagraph {
+        width: 70%;
+    }
+    .contacttitleandparagraph p{
+        text-align: center;
+    }
+    .iconssocilamedia {
+        width: 85%;
+    }
+    .contactus{
+        width: 18%;
+    }
+    .links,.ourservices{
+        width: 20%;
+    }
+    .companyname{
+        width: 30%;
+    }
+    .companyname h2 {
+        font-size: 1.5rem;
+    }
+    .companyname p {
+        font-size: 15px;
+    }
+}
+/* ========================= */
+@media screen and (min-width:768px) and (max-width:949px){
+    .compnayname {
+        width: 11%;
+        margin:0% 1%;
+    }
+    .compnayname h1 {
+        font-size: 20px;
+    }
+    .desktopnavigationmenu {
+        width: 65%;
+        padding: 10px 0px;
+        align-items: flex-end;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .desktopnavigationmenu nav ul li a{
+        padding: 10px 5px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .buttonsdiv {
+        width: 15%;
+    }
+    .buttonsdiv button {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .childcontainer {
+        width: 80%;
+    }
+    .signupbuttoncontainer {
+        width: 30%;
+        margin-left: -28%;
+    }
+    .emailtextandsignupbutton {
+        width: 98%;
+        
+    }
+    .btnsignupproperty {
+        width: 60%;
+        padding: 10px 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .companys {
+        margin-top: 22%;
+        padding: 10px;
+    }
+    .companylogo {
+        width: 26%;
+        margin: 20px 0px;
+    }
+    .childaboutcontainer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .parentaboutcontainer {
+        padding: 0px;
+    }
+    .abouttextandreadmorebutton {
+        width: 100%;
+    }
+    .aboutus {
+        width: 130px;
+    }
+    .abouttextandreadmorebutton h2 {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+    .abouttextandreadmorebutton p {
+        font-size: 15px;
+    }
+    .clientcountdown {
+        width: 22%;
+    }
+    .sectiontitleandparagraph {
+        padding: 0px 15px;
+        width: 80%;
+    }
+    .servicedetailed {
+        margin: 0% 0%;
+    }
+    .servicedata {
+        padding: 5px;
+        width: 100%;
+    }
+    .barredandgray {
+        width: 99%;
+        padding: 0px;
+    }
+    .feactureimagesanddatas {
+        flex-direction: column-reverse;
+    }
+    .part2 {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .feacturedata , .featureimages{
+        width: 98%;
+        padding: 0px;
+        margin: 0%;
+    }
+    .image3, .featureimages2 {
+        width: 99%;
+        padding: 0px;
+    }
+    .portfoliodetailed {
+        padding: 0px;
+    }
+    .imagesportfolio {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .shade4{
+        height: 35%;
+    }
+    .shade5{
+        height: 40%;
+    }
+    .shade8{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade9{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade1,.shade2,.shade3,.shade6,.shade7{
+        height: 80%;
+    }
+    .pricerow {
+        flex-direction: column;
+    }
+    .pricecards {
+        width: 99%;
+        padding: 25px 15px;
+        margin-top: 1%;
+    }
+    .pricecardsactive {
+        border: 2px solid red;
+        transform: scale(1.0,1.0);
+    }
+    .circleshape {
+        width: 15%;
+    }
+    .sedata {
+        margin: 0% 5%;
+    }
+    .faqscontainer {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .faqsheadinganddiscription{
+        width: 100%;
+    }
+    .faqsquestioncontainer {
+        width: 100%;
+    }
+    .aboutfeature {
+        width: 100%;
+        padding: 0px;
+    }
+    .box1{
+        margin-top:0%;
+    }
+    .box4{
+        margin-top:0%;
+    }
+    .feacturerow {
+        padding: 0px;
+        margin-top:20px;
+    }
+    .portfoliotitleandparagraph {
+        width: 70%;
+    }
+    
+    .price {
+        width: 80%;
+    }
+    .portfoliotitleandparagraph p{
+        text-align: center;
+    }
+    .chkdata1 p{
+        font-size: 14px;
+    }
+    .chkdata2 p{
+        font-size: 14px;
+    }
+    .pricecardsdetailed {
+        width: 99%;
+        padding: 15px 5px;
+    }
+    .faqsquestion {
+        width: 99%;
+    }
+    .teammemberdetailedchildcontainer {
+        flex-wrap: wrap;
+    }
+    .teamtitleandparagraph {
+        width: 70%;
+    }
+    .teamtitleandparagraph p{
+        text-align: center;
+    }
+    .teammemberdetaileddata {
+        width: 48%;
+    }
+    .teammemberdetaileddata h3 {
+        font-size: 1.5rem;
+    }
+    .calltoactioncontainer {
+        width: 100%;
+    }
+    .calltoactioncontainer h2 {
+        width: 60%;
+    }
+    .userimages {
+        width: 30%;
+    }
+    .testimonialtitledata p {
+        font-size: 16px;
+    }
+    .parenttestimonialcontainer {
+        padding: 0px;
+    }
+    .testimonialtitledata {
+        padding: 0px;
+        width: 100%;
+    }
+    .testimonialslidercontainer {
+        padding: 0px;
+        width: 100%;
+    }
+    .serheading {
+        width: 70%;
+    }
+    .blogpostdata {
+        padding: 0px;
+        width: 100%;
+        margin: 1% 0%;
+    }
+    .appheading p {
+        font-size: 13px;
+    }    
+    .teammemberdetaileddata p {
+        font-size: 14px;
+    }
+    .blogtitleandparagraph p{
+        text-align: center;
+    }
+    .blogpart {
+        width: 90%;
+    }
+    .blogpostdetailed h3 {
+        font-size: 1.5rem;
+    }
+    .authorblogimage {
+        width: 12%;
+    }
+    .detailedcontactcontainer {
+        padding: 15px;
+    }
+    .addressandotherdetailed {
+        width: 100%;
+    }
+    .contactscontainer {
+        width: 100%;
+    }
+    .contacttitleandparagraph {
+        width: 70%;
+    }
+    .nameandemailproperty {
+        margin: 2% 1%;
+    }
+    .messageproperty {
+        margin-top: -2.5%;
+    }
+    .footerupperparts {
+        padding: 0px;
+    }
+    .contacttitleandparagraph p{
+        text-align: center;
+    }
+    .iconssocilamedia {
+        width: 65%;
+    }
+    .twitter {
+        width: 20%;
+    }
+    .contactus{
+        width: 18%;
+    }
+
+    .ourservices,.contactus{
+        width: 48%;
+    }
+    .companyname,.links{
+        width: 49%;
+    }
+    .companyname h2 {
+        font-size: 1.5rem;
+    }
+    .companyname p {
+        font-size: 15px;
+    }
+    .footerlowerparts {
+        width: 100%;
+    }
+}
+/* ========================= */
+@media screen and (min-width:480px) and (max-width:767px){
+    .naigationsidediv {
+        justify-content: space-between;
+    }
+    .compnayname {
+        width: 30%;
+        margin:0% 1%;
+    }
+    .compnayname h1 {
+        font-size: 20px;
+    }
+    .desktopnavigationmenu {
+        display: none;
+    }
+    .mobilemenuheader{
+        display: flex;
+        width: 20%;
+        margin-left: 10px;
+        border: 0px solid red;
+    }
+    .buttonsdiv {
+        width: 30%;
+    }
+    .buttonsdiv button {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .childcontainer {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .signupbuttoncontainer {
+        width: 30%;
+        margin-left: -32%;
+    }
+    .emailtextandsignupbutton {
+        width: 98%;
+        
+    }
+    .btnsignupproperty {
+        width: 60%;
+        padding: 10px 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .companys {
+        margin-top: 35%;
+        align-items: flex-start;
+    }
+    .companylogo {
+        width: 180px;
+        margin: 20px 0px;
+    }
+    .childaboutcontainer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .parentaboutcontainer {
+        padding: 0px;
+    }
+    .abouttextandreadmorebutton {
+        width: 100%;
+    }
+    .aboutus {
+        width: 130px;
+    }
+    .abouttextandreadmorebutton h2 {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+    .abouttextandreadmorebutton p {
+        font-size: 15px;
+    }
+    .projectdetailed {
+        height: 50vh;
+    }
+    .clientcountdown {
+        width: 40%;
+        /* continue */
+    }
+    .clientcountdown h3 {
+        font-size: 2rem;
+    }
+    .clientcountdown p {
+        font-size: 14px;
+    }
+    .image1,.image2 {
+        width: 80%;
+    }
+    .sectiontitleandparagraph {
+        padding: 0px 15px;
+        width: 80%;
+    }
+    .servicedetailed {
+        margin: 0% 0%;
+    }
+    .servicedata {
+        padding: 5px;
+        width: 100%;
+    }
+    .barredandgray {
+        width: 99%;
+        padding: 0px;
+    }
+    .feactureimagesanddatas {
+        flex-direction: column-reverse;
+    }
+    .part2 {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .feacturedata , .featureimages{
+        width: 98%;
+        padding: 0px;
+        margin: 0%;
+    }
+    .image3, .featureimages2 {
+        width: 99%;
+        padding: 0px;
+    }
+    .portfoliodetailed {
+        padding: 0px;
+    }
+    .imagesportfolio {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .faqsquestion{
+        font-size: 13px;
+    }
+    .shade4{
+        height: 35%;
+    }
+    .shade5{
+        height: 40%;
+    }
+    .shade8{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade9{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade1,.shade2,.shade3,.shade6,.shade7{
+        height: 80%;
+    }
+    .pricerow {
+        flex-direction: column;
+    }
+    .pricecards {
+        width: 99%;
+        padding: 25px 15px;
+        margin-top: 1%;
+    }
+    .pricecardsactive {
+        border: 2px solid red;
+        transform: scale(1.0,1.0);
+    }
+    .circleshape {
+        width: 15%;
+    }
+    .sedata {
+        margin: 0% 5%;
+    }
+    .faqscontainer {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .faqsheadinganddiscription{
+        width: 100%;
+    }
+    .faqsquestioncontainer {
+        width: 100%;
+    }
+    .aboutfeature {
+        width: 100%;
+        padding: 0px;
+    }
+    .box1{
+        margin-top:0%;
+    }
+    .box4{
+        margin-top:0%;
+    }
+    .feacturerow {
+        padding: 0px;
+        margin-top:20px;
+    }
+    .portfoliotitleandparagraph {
+        width: 70%;
+    }
+    
+    .price {
+        width: 80%;
+    }
+    .portfoliotitleandparagraph p{
+        text-align: center;
+    }
+    .chkdata1 p{
+        font-size: 14px;
+    }
+    .chkdata2 p{
+        font-size: 14px;
+    }
+    .pricecardsdetailed {
+        width: 99%;
+        padding: 15px 5px;
+    }
+    .faqsquestion {
+        width: 99%;
+    }
+    .teammemberdetailedchildcontainer {
+        flex-wrap: wrap;
+    }
+    .teamtitleandparagraph {
+        width: 70%;
+    }
+    .teamtitleandparagraph p{
+        text-align: center;
+    }
+    .teammemberdetaileddata {
+        width: 48%;
+    }
+    .teammemberdetaileddata h3 {
+        font-size: 1.2rem;
+    }
+    .calltoactioncontainer {
+        width: 100%;
+    }
+    .imagescontainer {
+        height: 60vh;
+    }
+    .calltoactioncontainer h2 {
+        width: 60%;
+        margin:10px 0px;
+    }
+    .calltoactioncontainer  p{
+        font-size: 14px;
+        margin:10px 0px;
+    }
+    .userimages {
+        width: 40%;
+    }
+    .btncallactionproperty {
+        margin-top: 20px;
+    }
+    .testimonialtitledata p {
+        font-size: 16px;
+    }
+    .parenttestimonialcontainer {
+        padding: 0px;
+    }
+    .testimonialtitledata {
+        padding: 0px;
+        width: 100%;
+    }
+    .testimonialslidercontainer {
+        padding: 0px;
+        width: 100%;
+    }
+    .serheading2{
+        width: 400px;
+    }
+    .blogpostdata {
+        padding: 0px;
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .blogtitleandparagraph {
+        width: 100%;
+    }
+    .appheading p {
+        font-size: 13px;
+    }    
+    .teammemberdetaileddata p {
+        font-size: 14px;
+    }
+    .blogtitleandparagraph p{
+        text-align: center;
+    }
+    .blogpart {
+        width: 90%;
+    }
+    .blogpostdetailed h3 {
+        font-size: 1.2rem;
+    }
+    .teammemberimage {
+        width: 75%;
+    }
+    .detailedcontactcontainer {
+        padding: 15px;
+    }
+    .addressandotherdetailed {
+        width: 100%;
+    }
+    .contactscontainer {
+        width: 100%;
+    }
+    .contacttitleandparagraph {
+        width: 70%;
+    }
+    .nameandemailproperty {
+        margin: 2% 1%;
+    }
+    .messageproperty {
+        margin-top: -2.5%;
+    }
+    .footerupperparts {
+        padding: 0px;
+    }
+    .contacttitleandparagraph p{
+        text-align: center;
+    }
+    .iconssocilamedia {
+        width: 96%;
+    }
+    .twitter {
+        width: 20%;
+    }
+    .contactus{
+        width: 18%;
+    }
+
+    .ourservices,.contactus{
+        width: 48%;
+    }
+    .companyname,.links{
+        width: 49%;
+    }
+    .companyname h2 {
+        font-size: 1.5rem;
+    }
+    .companyname p {
+        font-size: 15px;
+    }
+    .footerlowerparts {
+        width: 100%;
+    }
+}
+/* ========================= */
+@media screen and (min-width:370px) and (max-width:479px){
+    .naigationsidediv {
+        justify-content: space-between;
+    }
+    .compnayname {
+        width: 30%;
+        margin:0% 1%;
+    }
+    .compnayname h1 {
+        font-size: 20px;
+    }
+    .desktopnavigationmenu {
+        display: none;
+    }
+    .mobilemenuheader{
+        display: flex;
+        width: 20%;
+        margin-left: 10px;
+        border: 0px solid red;
+    }
+    .buttonsdiv {
+        width: 40%;
+    }
+    .buttonsdiv button {
+        padding: 5px;
+        width: 200px;
+        height: 50px;
+    }
+    .childcontainer {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+    .childcontainer h1 {
+        font-size: 1.5rem;
+    }
+    .childcontainer p {
+        font-size: 13px;
+    }
+    .emailtextandsignupbutton {
+        width: 100%;
+        flex-direction: column;
+    }
+    .signupbuttoncontainer {
+        width: 30%;
+        margin-left: 0%;
+    }
+    .btnsignupproperty {
+        width: 60%;
+        padding: 10px 5px;
+        width: 100px;
+        height: 50px;
+    }
+    .companys {
+        margin-top: 3%;
+        justify-content: center;
+    }
+    .companylogo {
+        width: 300px;
+        margin: 20px 0px;
+    }
+    .childaboutcontainer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .parentaboutcontainer {
+        padding: 0px;
+    }
+    .abouttextandreadmorebutton {
+        width: 100%;
+    }
+    .aboutus {
+        width: 130px;
+    }
+    .abouttextandreadmorebutton h2 {
+        font-size: 1.7rem;
+        width: 80%;
+    }
+    .abouttextandreadmorebutton p {
+        font-size: 15px;
+    }
+    .feacturesbox {
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .feactureboxcircleicons,.feacturesbox p,.feacturesbox h3{
+        align-self: center;
+    }
+    .projectdetailed {
+        height: 50vh;
+    }
+    .clientcountdown {
+        width: 45%;
+        /* continue */
+    }
+    .clientcountdown h3 {
+        font-size: 2rem;
+    }
+    .clientcountdown p {
+        font-size: 13px;
+    }
+    .sdata {
+        flex-direction: column;
+    }
+    .servicefontawesome {
+        margin-bottom: 25px
+    }
+    .image1,.image2 {
+        width: 80%;
+    }
+    .sectiontitleandparagraph {
+        padding: 0px 15px;
+        width: 80%;
+    }
+    .servicedetailed {
+        margin: 0% 0%;
+    }
+    .servicedata {
+        padding: 5px;
+        width: 100%;
+    }
+    .barredandgray {
+        width: 99%;
+        padding: 0px;
+    }
+    .feactureimagesanddatas {
+        flex-direction: column-reverse;
+    }
+    .part2 {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .feacturedata , .featureimages{
+        width: 98%;
+        padding: 0px;
+        margin: 20px 0px;
+    }
+    .image3, .featureimages2 {
+        width: 99%;
+        padding: 0px;
+    }
+    .feacturesectiontitleandparagraph p{
+        text-align: center;
+    }
+    .portfoliodetailed {
+        padding: 0px;
+    }
+    .imagesportfolio {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .faqsquestion{
+        font-size: 13px;
+    }
+    .shade4{
+        height: 35%;
+    }
+    .shade5{
+        height: 40%;
+    }
+    .shade8{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade9{
+        height: 90%;
+        padding: 0px;
+    }
+    .shade1,.shade2,.shade3,.shade6,.shade7{
+        height: 80%;
+    }
+    .pricerow {
+        flex-direction: column;
+    }
+    .pricecards {
+        width: 99%;
+        padding: 25px 15px;
+        margin-top: 1%;
+    }
+    .pricecardsactive {
+        border: 2px solid red;
+        transform: scale(1.0,1.0);
+    }
+    .circleshape {
+        width: 15%;
+    }
+    .sedata {
+        margin: 0% 5%;
+    }
+    .faqscontainer {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .faqsheadinganddiscription{
+        width: 100%;
+    }
+    .faqsquestioncontainer {
+        width: 100%;
+    }
+    .aboutfeature {
+        width: 100%;
+        padding: 0px;
+    }
+    .box1{
+        margin-top:0%;
+    }
+    .box4{
+        margin-top:0%;
+    }
+    .feacturerow {
+        padding: 0px;
+        margin-top:20px;
+        flex-direction: column;
+    }
+    .portfoliotitleandparagraph {
+        width: 70%;
+    }
+    
+    .price {
+        width: 80%;
+    }
+    .portfoliotitleandparagraph p{
+        text-align: center;
+    }
+    .chkdata1 p{
+        font-size: 14px;
+    }
+    .chkdata2 p{
+        font-size: 14px;
+    }
+    .pricecardsdetailed {
+        width: 99%;
+        padding: 15px 5px;
+    }
+    .faqsquestion {
+        width: 99%;
+    }
+    .teammemberdetailedchildcontainer {
+        flex-wrap: wrap;
+    }
+    .teamtitleandparagraph {
+        width: 70%;
+    }
+    .teamtitleandparagraph p{
+        text-align: center;
+    }
+    .teammemberdetaileddata {
+        width: 100%;
+    }
+    .teammemberdetaileddata h3 {
+        font-size: 1.2rem;
+    }
+    .calltoactioncontainer {
+        width: 100%;
+    }
+    .imagescontainer {
+        height: 80vh;
+    }
+    .calltoactioncontainer h2 {
+        width: 100%;
+        margin:10px 0px;
+    }
+    .calltoactioncontainer  p{
+        font-size: 14px;
+        margin:10px 0px;
+    }
+    .userimages {
+        width: 40%;
+    }
+    .btncallactionproperty {
+        margin-top: 20px;
+    }
+    
+.userimagesdesignation {
+    flex-direction: column;
+}
+.userdata h3 {
+    text-align: center;
+    align-self: center;
+}
+.userdata p,.rating{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.testimonialsquotes {
+    flex-direction: column;
+}
+    .testimonialtitledata p {
+        font-size: 16px;
+    }
+    .parenttestimonialcontainer {
+        padding: 0px;
+    }
+    .testimonialtitledata {
+        padding: 0px;
+        width: 100%;
+    }
+    .testimonialslidercontainer {
+        padding: 0px;
+        width: 100%;
+    }
+    .serheading2{
+        width: 800px;
+    }
+    .authorblogimage {
+        width: 32%;
+    }
+    .blogpostdata {
+        padding: 0px;
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .blogtitleandparagraph {
+        width: 100%;
+    }
+    .appheading p {
+        font-size: 13px;
+    }    
+    .teammemberdetaileddata p {
+        font-size: 14px;
+    }
+    .blogtitleandparagraph p{
+        text-align: center;
+    }
+    .blogpart {
+        width: 90%;
+    }
+    .blogpostdetailed h3 {
+        font-size: 1.2rem;
+    }
+    .teammemberimage {
+        width: 75%;
+    }
+    .detailedcontactcontainer {
+        padding: 15px;
+    }
+    .addressandotherdetailed {
+        width: 100%;
+    }
+    .contactscontainer {
+        width: 100%;
+    }
+    .contacttitleandparagraph {
+        width: 70%;
+    }
+    .timingdetailedrow {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .addressbox {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .formrow {
+        flex-direction: column;
+    }
+    .nameandemailproperty {
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .messageproperty {
+        margin-top: -2.5%;
+    }
+    .footerupperparts {
+        padding: 0px;
+    }
+    .contacttitleandparagraph p{
+        text-align: center;
+    }
+    .iconssocilamedia {
+        width: 60%;
+    }
+    .twitter {
+        width: 20%;
+    }
+    .contactus{
+        width: 18%;
+    }
+
+    .ourservices,.contactus{
+        width: 100%;
+    }
+    .companyname,.links{
+        width: 100%;
+    }
+    .companyname h2 {
+        font-size: 1.5rem;
+    }
+    .companyname p {
+        font-size: 15px;
+    }
+    .footerlowerparts {
+        width: 100%;
+    }
+}
+/* ========================= */

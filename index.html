@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- bootstrap adding css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- bootstrap adding js file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- project css files -->
+    <link rel="stylesheet" href="css/bodyproperty.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   <!-- fontawesome css files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- project js files -->
+    <script src="js/hamburgermenu.js"></script>
+    <script src="js/functiononscrollactivenavlinks.js"></script>
+    <script src="js/arrowtop.js"></script>
+    <script src="js/autostickingfunction.js"></script>
+    <script src="js/faqsaction.js"></script>
+    <script src="js/testimonialslider.js"></script>
+    <script src="js/movetotop.js"></script>
+    <title>
+        Home
+    </title>
+</head>
+<body>
+    <header>
+        <div id="headersection"
+                 class="parentheadersection">
+                 <div id="mobilemenu" class="mobilenavigationmenuhide  mobilenavigationmenu">
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="hamburgermenufunction()"></i>
+                    <nav>
+                        <ul>
+                            <li>
+                                    <a id="linkdata1" href="#homesection">
+                                        Home
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata2" href="#aboutsections">
+                                        About
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata3" href="#servicesection">
+                                        Services
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata4" href="#portfoliosection">
+                                        Portfolio
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata5" href="#teamsection">
+                                        Team
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata6" href="#blogsection">
+                                        Blog
+                                    </a>
+                            </li>
+                            <li>
+                                    <a id="linkdata7" href="####">
+                                        Dropdown
+                                        <span class="childmenuarrow">
+                                                <i class="fa-solid fa-arrow-right" onclick="dropdownmenufunction()"></i>
+                                        </span>
+                                    </a>  
+                            </li>
+                            <div id="dropdown" class="dropdownchildmenuhide dropdownchildmenu">
+                                    <li>
+                                        <a href="#####">child</a>
+                                    </li>
+                                    <div class="border"></div>
+                                    <li>
+                                        <a href="#####">child</a>
+                                    </li>
+                                    <div class="border"></div>
+                                    <li>
+                                        <a href="#####">child</a>
+                                    </li>
+                                    <div class="border"></div>
+                                    <li>
+                                        <a href="#####">child</a>
+                                    </li>
+                                    <div class="border"></div>
+                                    <li>
+                                        <a href="#####">child</a>
+                                    </li>
+                            </div>
+                            <li>
+                                <a id="linkdata8" href="#contactsection">
+                                    Contact
+                                </a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
+                 <div id="naigationsidediv" class="naigationsidediv">
+                    <div class="compnayname">
+                        <h1 id="append">
+                            Append
+                        </h1>
+                        <span>
+                            <p id="dotssss">
+                                .
+                            </p>
+                        </span>
+                    </div>
+                    <!-- =================== -->
+                    <div class="desktopnavigationmenu">
+                        <nav>
+                            <ul>
+                                <li class="listindicator">
+                                        <a id="home" class="active" href="#homesections">
+                                            Home
+                                        </a>
+                                </li>
+                                <li class="listindicator">
+                                        <a id="about" href="#aboutsections">
+                                            About
+                                        </a>
+                                </li>
+                                <li class="listindicator">
+                                        <a id="services" href="#servicesection">
+                                            Services
+                                        </a>
+                                </li>
+                                <li class="listindicator">
+                                        <a id="portfolio" href="#portfoliosection">
+                                            Portfolio
+                                        </a>
+                                </li>
+                                <li  class="listindicator">
+                                        <a id="team" href="#teamsection">
+                                            Team
+                                        </a>
+                                </li>
+                                <li  class="listindicator">
+                                        <a id="blog" href="#blogsection">
+                                            Blog
+                                        </a>
+                                </li>
+                                <li class="listindicator">
+                                        <a id="dropdown" href="####">
+                                            Dropdown
+                                        </a>
+                                        <ul id="dropmenus">
+                                            <li>
+                                                <a id="child1" href="#####">child</a>
+                                            </li>
+                                            <div class="border"></div>
+                                            <li>
+                                                <a id="child2" href="#####">child</a>
+                                            </li>
+                                            <div class="border"></div>
+                                            <li>
+                                                <a id="child3" href="#####">child</a>
+                                            </li>
+                                            <div class="border"></div>
+                                            <li>
+                                                <a id="child4" href="#####">child</a>
+                                            </li>
+                                            <div class="border"></div>
+                                            <li>
+                                                <a id="child5" href="#####">child</a>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li class="listindicator">
+                                        <a id="contact" href="#contactsection">
+                                            Contact
+                                        </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- =================== -->
+                    <div class="buttonsdiv">
+                        <button id="getstartbtn" type="button">
+                            Get Started
+                        </button>
+                        <div class="mobilemenuheader" href="#" onclick="hamburgermenufunction()">
+                            <div id="mobileicon1" class="bar1"></div>
+                            <div id="mobileicon2" class="bar2"></div>
+                            <div id="mobileicon3" class="bar3" ></div>
+                        </div>
+                    </div>
+                 </div>                
+            
+            <!-- =================== -->
+            <!-- ======================== -->
+        </div>
+        
+    </header>
+    <!-- ========== end of header ============ -->
+    <main>
+        <section id="homesections" class="parenthomecontainer">
+            <img src="img/hero-bg.jpg" alt="">
+            <div class="childcontainer">
+                <h1>
+                    Welcome to Our Website
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi quibusdam
+                </p>
+                <div class="emailtextandsignupbutton">
+                    <div class="emailbox">
+                        <input type="email" class="emailtextbox" placeholder="Enter email address">
+                    </div>
+                    <div class="signupbuttoncontainer">
+                        <button id="btnsignup" type="button" class="btnsignupproperty">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== -->
+        <div class="companys">
+                <div class="companylogo">
+                    <img src="img/client-1.png" alt="">
+                </div>
+                <div class="companylogo">
+                    <img src="img/client-2.png" alt="">
+                </div>
+                <div class="companylogo">
+                    <img src="img/client-3.png" alt="">
+                </div>
+                <div class="companylogo">
+                    <img src="img/client-4.png" alt="">
+                </div>
+                <div class="companylogo">
+                    <img src="img/client-5.png" alt="">
+                </div>
+                <div class="companylogo">
+                    <img src="img/client-6.png" alt="">
+                </div>
+            </div>
+        <!-- ==================== -->
+        <section id="aboutsections" class="parentaboutcontainer">
+            <div class="childaboutcontainer">
+                <div class="abouttextandreadmorebutton">
+                    <div class="aboutus">
+                        <p>
+                            About Us
+                        </p>
+                    </div>
+                    <h2>
+                        Ducimus rerum libero reprehenderit cumque
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatibus commodi itaque quasi magnam autem hic rerum dicta, molestiae atque fuga, odio facilis veniam nobis? Omnis, atque est quidem suscipit sunt totam officiis quasi deleniti sint magni autem sed cupiditate hic, ipsa placeat vel voluptates ea distinctio. Quibusdam, itaque illum!
+                    </p>
+                    <button href ="####" type="button" id="readmoremorebtn" class="btnreadmoreproperty">
+                        Read More 
+                    </button>
+                </div>
+                <!-- ====================== -->
+                <div class="aboutfeature">
+                    <div class="feacturerow">
+                        <div class="feacturesbox box1">
+                            <div class="feactureboxcircleicons">
+                                    <i class="fa-solid fa-building-shield"></i>
+                            </div>
+                            <h3>
+                                Eius provident
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum nemo unde perferendis aspernatur facilis? Fugiat ab sunt quia itaque.
+                            </p>
+                        </div>
+                        <div class="feacturesbox box2">
+                                <div class="feactureboxcircleicons">
+                                        <i class="fa-solid fa-clipboard"></i>
+                                </div>
+                            <h3>
+                                Rerum aperiam
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum nemo unde perferendis aspernatur facilis? Fugiat ab sunt quia itaque.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feacturerow">
+                        <div class="feacturesbox box3">
+                                <div class="feactureboxcircleicons">
+                                        <i class="fa-solid fa-chart-simple"></i>
+                                </div>
+                            <h3>
+                                Veniam omnis
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum nemo unde perferendis aspernatur facilis? Fugiat ab sunt quia itaque.
+                            </p>
+                        </div>
+                        <div class="feacturesbox box4">
+                                <div class="feactureboxcircleicons">
+                                        <i class="fa-solid fa-house"></i>
+                                </div>
+                            <h3>
+                                Delares sapiente
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum nemo unde perferendis aspernatur facilis? Fugiat ab sunt quia itaque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="projectdetailed">
+            <img src="img/stats-bg.jpg" alt="">
+            <div class="datas">
+                    <div class="clientcountdown">
+                        <h3>
+                            232
+                        </h3>
+                        <p>
+                            Clients
+                        </p>
+                    </div>
+                    <!-- ============== -->
+                    <div class="clientcountdown">
+                        <h3>
+                            521
+                        </h3>
+                        <p>
+                            Projects
+                        </p>
+                    </div>
+                    <!-- ============== -->
+                    <div class="clientcountdown">
+                        <h3>
+                            1453
+                        </h3>
+                        <p>
+                            Hours Of Support
+                        </p>
+                    </div>
+                        <!-- ============== -->
+                    <div class="clientcountdown">
+                        <h3>
+                            32
+                        </h3>
+                        <p>
+                            Workers
+                        </p>
+                    </div>
+                    <!-- ============== -->
+            </div>
+        </div>
+        <!-- ======================= -->
+        <section id="servicesection" class="parentsrvicesection">
+            <div class="sectiontitleandparagraph">
+                <div class="servicepart">
+                    <div class="bar"></div>
+                    <div class="serheading">
+                        <h2>
+                            Service
+                        </h2>
+                    </div>
+                    <div class="bar"></div>
+                </div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, odio delectus maiores alias excepturi!
+                </p>
+            </div>
+            <!-- ========================= -->
+            <div class="servicedetailed">
+                
+                <!-- ===================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ===================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                <div class="circle"></div>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ==================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                <div class="circle"></div>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ===================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                <div class="circle"></div>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ==================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                <div class="circle"></div>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ===================== -->
+                <div class="servicedata">
+                        <div class="barredandgray">
+                            <div class="redbar"></div>
+                            <div class="graybar"></div>
+                        </div>
+                        <div class="sdata">
+                            <div class="servicefontawesome">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                <div class="circle"></div>
+                            </div>
+                            <div class="sedata">
+                                <h3>
+                                    Lorem, ipsum.
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim officia dolor debitis modi sapiente!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ==================== -->
+            </div>
+            <div class="feacturesectiontitleandparagraph">
+                <div class="servicepart">
+                    <div class="bar"></div>
+                    <div class="serheading">
+                        <h2>
+                            Features
+                        </h2>
+                    </div>
+                    <div class="bar"></div>
+                </div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                </p>
+            </div>
+        <!-- ========================== -->
+        <div class="feactureimagesanddatas">
+            <div class="feacturedata">
+                <h2>
+                    Corporis temporibus maiores provident 
+                </h2>
+                <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+                </p>
+                <button id="btngetstart" class="btnreadmoreproperty btnsextraclass">
+                    Get Started
+                </button>
+            </div>
+            <!-- ====================== -->
+            <div class="featureimages">
+                <div class="image1">
+                    <img src="img/features-light-1.jpg" alt="">
+                </div>
+                <div class="image2">
+                    <img src="img/features-light-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- ==================== -->
+        <div class="feactureimagesanddatas part2">
+                <div class="featureimages2">
+                        <div class="image3">
+                            <img src="img/features-light-3.jpg" alt="">
+                        </div>
+                </div>
+                <!-- ====================== -->
+                <div class="feacturedata">
+                        <h2>
+                            Sunt consequatur ad ut est nulla 
+                        </h2>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+                        </p>
+                        <div class="chkdata chkdata3">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                        <!-- ================== -->
+                        <div class="chkdata">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                            <!-- ================== -->
+                        <div class="chkdata">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                                <!-- ================== -->
+                        <button id="btngetstart" class="btnreadmoreproperty btnsextraclass">
+                            Get Started
+                        </button>
+                </div>
+        </div>
+            <!-- ============================= -->
+        </section>
+        <!-- =========================== -->
+        <section id="portfoliosection" class="parentportfoliocontainer">
+                <div class="portfoliotitleandparagraph">
+                    <div class="portfoliopart">
+                        <div class="bar"></div>
+                        <div class="serheading">
+                            <h2>
+                                Portfolio
+                            </h2>
+                        </div>
+                        <div class="bar"></div>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <!-- ========================= -->
+                <div class="portfoliodetailed">
+                    <div class="portfoliobuttons"></div>
+                    <div class="imagesportfolio">
+                        <div class="images">
+                            <img src="img/masonry-portfolio-1.jpg" alt="">
+                            <div class="shade shade1">
+                                <div class="appheading">
+                                        <h4>
+                                            Apps
+                                        </h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                        </p>
+                                </div>
+                                <div class="icons">
+                                    <a class="fa-sharp fa-solid fa-link"
+                                       href="##">
+                                    </a>
+                                    <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                       href="##">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-2.jpg" alt="">
+                            <div class="shade shade2">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-3.jpg" alt="">
+                            <div class="shade shade3">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-6.jpg" alt="">
+                            <div class="shade shade4">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-5.jpg" alt="">
+                            <div class="shade shade5">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-4.jpg" alt="">
+                            <div class="shade shade6">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-7.jpg" alt="">
+                            <div class="shade shade7">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-8.jpg" alt="">
+                            <div class="shade shade8">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="images">
+                            <img src="img/masonry-portfolio-9.jpg" alt="">
+                            <div class="shade shade9">
+                                    <div class="appheading">
+                                            <h4>
+                                                Apps
+                                            </h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non.
+                                            </p>
+                                    </div>
+                                    <div class="icons">
+                                        <a class="fa-sharp fa-solid fa-link"
+                                           href="##">
+                                        </a>
+                                        <a class="fa-sharp fa-solid fa-magnifying-glass" 
+                                           href="##">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                </div>
+                <!-- ======================== -->
+                <div class="portfoliotitleandparagraph">
+                        <div class="pricingfoliopart">
+                            <div class="bar"></div>
+                            <div class="serheading">
+                                <h2>
+                                    Pricing
+                                </h2>
+                            </div>
+                            <div class="bar"></div>
+                        </div>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, odio delectus maiores alias excepturi!
+                        </p>
+                </div>
+                <!-- ======================== -->
+                <div class="pricerow">
+                    <div class="pricecards">
+                        <h2>
+                            Free Plan
+                        </h2>
+                        <div class="circleshape">
+                            <div class="childcircleshape">
+                                <div class="subchildcircleshape">
+                                        <i class="fa-sharp fa-solid fa-cube"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <strong>
+                                $0
+                            </strong>
+                            <span>
+                                / Months
+                            </span>
+                        </div>
+                        <div class = "pricecardsdetailed">
+                                <div class="chkdata1">
+                                    <i class="fa-sharp fa-solid fa-check"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="chkdata1">
+                                    <i class="fa-sharp fa-solid fa-check"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="chkdata1">
+                                    <i class="fa-sharp fa-solid fa-check"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="chkdata2">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                                <div class="chkdata2">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                        </div>
+                        <button type="button" id="btnbuynow" class="btnbynowproerty">
+                            Buy Now
+                        </button>
+                    </div>
+                    <div class="pricecards pricecardsactive">
+                            <h2>
+                                    Bussniess Plan
+                                </h2>
+                                <div class="circleshape">
+                                    <div class="childcircleshape">
+                                        <div class="subchildcircleshape">
+                                            <i class="fa-solid fa-rocket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <strong>
+                                        $20
+                                    </strong>
+                                    <span>
+                                        / Months
+                                    </span>
+                                </div>
+                                <div class = "pricecardsdetailed">
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                </div>
+                                <button type="button" id="btnbuynow" class="btnbynowproerty btnbynowproertyactive">
+                                    Buy Now
+                                </button>
+                    </div>
+                    <div class="pricecards">
+                            <h2>
+                                    Developer Plan
+                                </h2>
+                                <div class="circleshape">
+                                    <div class="childcircleshape">
+                                        <div class="subchildcircleshape">
+                                            <i class="fa-brands fa-telegram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <strong>
+                                        $49
+                                    </strong>
+                                    <span>
+                                        / Months
+                                    </span>
+                                </div>
+                                <div class = "pricecardsdetailed">
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                        <div class="chkdata1">
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            <p>
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
+                                </div>
+                                <button type="button" id="btnbuynow" class="btnbynowproerty">
+                                    Buy Now
+                                </button>
+                    </div>
+                </div>
+                <!-- ================= -->
+                <div class="faqscontainer">
+                    <div class="faqsheadinganddiscription">
+                        <h2>
+                            Frequently Asked <span>
+                                <strong>
+                                        Questions
+                                </strong>
+                            </span>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima porro totam, delectus aperiam, sed culpa iure quibusdam neque temporibus voluptas deleniti omnis vitae similique aliquid voluptatem nemo corporis assumenda quis.
+                        </p>
+                    </div>
+                    <!-- =================== -->
+                    <div class="faqsquestioncontainer">
+                        <div class="faqsquestion faqsquestionactive" onclick="faqsaction()">
+                            <strong>
+                                    <span id="number">
+                                            1.
+                                    </span>
+                                    Non consectetur a erat nam at lectus urna duis?
+                                     <span class="icon-container">
+                                            <div class="arrow-icon"></div>
+                                     </span>
+                            </strong>
+                            <div id="faqans" class="faqanswerhide faqanswer">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores magni commodi est maxime delectus nulla incidunt eum, praesentium rerum, architecto quibusdam amet? Laborum necessitatibus, quisquam possimus rerum incidunt esse!
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ========================= -->
+                        <div class="faqsquestion" onclick="faqsaction2()">
+                                <strong>
+                                        <span id="number">
+                                                2.
+                                        </span>
+                                        Non consectetur a erat nam at lectus urna duis? 
+                                        <span class="icon-container">
+                                                <div class="arrow-icon"></div>
+                                         </span>
+                                </strong>
+                                <div id="faqans2" class="faqanswerhide faqanswer">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores magni commodi est maxime delectus nulla incidunt eum, praesentium rerum, architecto quibusdam amet? Laborum necessitatibus, quisquam possimus rerum incidunt esse!
+                                    </p>
+                                </div>
+                        </div>
+                        <!-- ========================= -->
+                        <div class="faqsquestion" onclick="faqsaction3()">
+                                <strong>
+                                       <span id="number">
+                                           3.
+                                       </span> 
+                                       Non consectetur a erat nam at lectus urna duis? 
+                                       <span class="icon-container">
+                                            <div class="arrow-icon"></div>
+                                     </span>
+                                </strong>
+                                <div id="faqans3" class="faqanswerhide faqanswer">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores magni commodi est maxime delectus nulla incidunt eum, praesentium rerum, architecto quibusdam amet? Laborum necessitatibus, quisquam possimus rerum incidunt esse!
+                                    </p>
+                                </div>
+                        </div>
+                        <!-- ========================= -->
+                        <div class="faqsquestion" onclick="faqsaction4()">
+                                <strong>
+                                        <span id="number">
+                                                4.
+                                            </span>
+                                        Non consectetur a erat nam at lectus urna duis?
+                                        <span class="icon-container">
+                                                <div class="arrow-icon"></div>
+                                         </span>
+                                </strong>
+                                <div id="faqans4" class="faqanswerhide faqanswer">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores magni commodi est maxime delectus nulla incidunt eum, praesentium rerum, architecto quibusdam amet? Laborum necessitatibus, quisquam possimus rerum incidunt esse!
+                                    </p>
+                                </div>
+                        </div>
+                        <!-- ========================= -->
+                        <div class="faqsquestion" onclick="faqsaction5()">
+                                <strong>
+                                        <span id="number">
+                                                5.
+                                            </span>
+                                        Non consectetur a erat nam at lectus urna duis? 
+                                        <span class="icon-container">
+                                                <div class="arrow-icon"></div>
+                                         </span>
+                                </strong>
+                                <div id="faqans5" class="faqanswerhide faqanswer">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores magni commodi est maxime delectus nulla incidunt eum, praesentium rerum, architecto quibusdam amet? Laborum necessitatibus, quisquam possimus rerum incidunt esse!
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- ======================= -->
+        <section id="teamsection" class="parentteamcontainer">
+            <div class="teamtitleandparagraph">
+                <div class="teampart">
+                    <div class="bar"></div>
+                    <div class="serheading">
+                        <h2>
+                            Team
+                        </h2>
+                    </div>
+                    <div class="bar"></div>
+                </div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, odio delectus maiores alias excepturi!
+                </p>
+            </div>
+            <!-- =========================== -->
+            <div class="teammemberdetailedcontainer">
+                    <div class="teammemberdetaileddata">
+                            <div class="teammemberimage">
+                                <img src="img/team-1.jpg" alt="">
+                                <div class="shadeimages">
+                                        <a class="fa-brands fa-square-facebook" href="###"></a>
+                                        <a class="fa-brands fa-square-instagram" href="###"></a>
+                                        <a class="fa-brands fa-square-twitter" href="###"></a>
+                                        <a class="fa-brands fa-linkedin" href="###"></a>
+                                    </div>
+                            </div>
+                            <h3>
+                                Walter White
+                            </h3>
+                            <i>
+                                Cheif Executive Officer
+                            </i>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente,
+                            </p>
+                        </div>
+                        <!-- ==================== -->
+                        <div class="teammemberdetaileddata">
+                            <div class="teammemberimage">
+                                <img src="img/team-2.jpg" alt="">
+                                <div class="shadeimages">
+                                        <a class="fa-brands fa-square-facebook" href="###"></a>
+                                        <a class="fa-brands fa-square-instagram" href="###"></a>
+                                        <a class="fa-brands fa-square-twitter" href="###"></a>
+                                        <a class="fa-brands fa-linkedin" href="###"></a>
+                                    </div>
+                                </div>
+                                <h3>
+                                    Sarah Jhonson
+                                </h3>
+                                <i>
+                                    Product Manager
+                                </i>
+                                <p>
+                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente,
+                                </p>
+                        </div>
+                        <!-- ==================== -->
+                        <div class="teammemberdetaileddata tm-3">
+                            <div class="teammemberimage">
+                                    <img src="img/team-3.jpg" alt="">
+                                    <div class="shadeimages">
+                                            <a class="fa-brands fa-square-facebook" href="###"></a>
+                                            <a class="fa-brands fa-square-instagram" href="###"></a>
+                                            <a class="fa-brands fa-square-twitter" href="###"></a>
+                                            <a class="fa-brands fa-linkedin" href="###"></a>
+                                        </div>
+                                </div>
+                                <h3>
+                                    William Anderson
+                                </h3>
+                                <i>
+                                     CTO
+                                </i>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente, 
+                                </p>
+                        </div>
+                <!-- ====================== -->
+                <div class="teammemberdetaileddata tm-4">
+                        <div class="teammemberimage">
+                            <img src="img/team-4.jpg" alt="">
+                            <div class="shadeimages">
+                                    <a class="fa-brands fa-square-facebook" href="###"></a>
+                                    <a class="fa-brands fa-square-instagram" href="###"></a>
+                                    <a class="fa-brands fa-square-twitter" href="###"></a>
+                                    <a class="fa-brands fa-linkedin" href="###"></a>
+                                </div>
+                        </div>
+                        <h3>
+                            Amanda Jepson
+                        </h3>
+                        <i>
+                            Accountant
+                        </i>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente,
+                        </p>
+                    </div>
+                    <!-- ==================== -->
+                    <div class="teammemberdetaileddata tm-5">
+                        <div class="teammemberimage">
+                            <img src="img/team-5.jpg" alt="">
+                            <div class="shadeimages">
+                                    <a class="fa-brands fa-square-facebook" href="###"></a>
+                                    <a class="fa-brands fa-square-instagram" href="###"></a>
+                                    <a class="fa-brands fa-square-twitter" href="###"></a>
+                                    <a class="fa-brands fa-linkedin" href="###"></a>
+                                </div>
+                            </div>
+                            <h3>
+                                Brian Doe
+                            </h3>
+                            <i>
+                                Marketing
+                            </i>
+                            <p>
+                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente,
+                            </p>
+                    </div>
+                    <!-- ==================== -->
+                    <div class="teammemberdetaileddata tm-6">
+                        <div class="teammemberimage">
+                                <img src="img/team-6.jpg" alt="">
+                                <div class="shadeimages">
+                                        <a class="fa-brands fa-square-facebook" href="###"></a>
+                                        <a class="fa-brands fa-square-instagram" href="###"></a>
+                                        <a class="fa-brands fa-square-twitter" href="###"></a>
+                                        <a class="fa-brands fa-linkedin" href="###"></a>
+                                    </div>
+                            </div>
+                            <h3>
+                                Josepha Palas
+                            </h3>
+                            <i>
+                                 Operation
+                            </i>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quae ratione nam sapiente, 
+                            </p>
+                    </div>
+                <!-- ====================== -->
+            </div>
+            <!-- ==================== -->
+            <div class="imagescontainer">
+                    <img src="img/cta-bg.jpg" alt="">
+                <div class="calltoactioncontainer">
+                    <h2>
+                        Call To Action
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vitae numquam, labore, provident enim quia at iste dolore libero laborum consectetur ipsa a eaque.
+                    </p>
+                    <button id="btncalltoaction" class="btncallactionproperty" type="button">
+                        Call to Action
+                    </button>
+                </div>
+            </div>
+            <!-- ==================== -->
+            <div class="parenttestimonialcontainer">
+                <div class="childtestimonialcontainer">
+                    <div class="testimonialtitledata">
+                        <h2>
+                            Testimonails
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, quos eum. Ad maxime, optio, dolorum voluptas quo sit tenetur veniam officiis assumenda, sapiente fuga nam atque est dolor eos cumque!
+                        </p>
+                    </div>
+                    <div class="testimonialslidercontainer">
+                        <div class="testimonialsliderdata owl-carousel owl-theme">
+                                <div class="testimonialssdata item">
+                                        <div class="userimagesdesignation">
+                                            <div class="userimages">
+                                                <img src="img/testimonials-1.jpg" alt="">
+                                            </div>
+                                            <div class="userdata">
+                                                <h3>
+                                                    Saul Goodman
+                                                </h3>
+                                                <p>
+                                                    Ceo & Founder
+                                                </p>
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ===================== -->
+                                        <div class="testimonialsquotes">
+                                            <span class="leftquote">
+                                                <i class="fa-sharp fa-solid fa-quote-left"></i>
+                                            </span>
+                                            <p>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint porro non temporibus sed at eligendi maxime dolorum explicabo quae?
+                                            </p>
+                                            <span class="rightquote">
+                                                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- ========================== -->
+                                    <div class="testimonialssdata item">
+                                            <div class="userimagesdesignation">
+                                                <div class="userimages">
+                                                    <img src="img/testimonials-2.jpg" alt="">
+                                                </div>
+                                                <div class="userdata">
+                                                    <h3>
+                                                        Sara Willsin
+                                                    </h3>
+                                                    <p>
+                                                        Designer
+                                                    </p>
+                                                    <div class="rating">
+                                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ===================== -->
+                                            <div class="testimonialsquotes">
+                                                <span class="leftquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                                                </span>
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint porro non temporibus sed at eligendi maxime dolorum explicabo quae?
+                                                </p>
+                                                <span class="rightquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                                </span>
+                                            </div>
+                                    </div>
+                                    <!-- ========================== -->
+                                    <div class="testimonialssdata item">
+                                            <div class="userimagesdesignation">
+                                                <div class="userimages">
+                                                    <img src="img/testimonials-3.jpg" alt="">
+                                                </div>
+                                                <div class="userdata">
+                                                    <h3>
+                                                        Jena Karlis
+                                                    </h3>
+                                                    <p>
+                                                        Store Owner
+                                                    </p>
+                                                    <div class="rating">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ===================== -->
+                                            <div class="testimonialsquotes">
+                                                <span class="leftquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                                                </span>
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint porro non temporibus sed at eligendi maxime dolorum explicabo quae?
+                                                </p>
+                                                <span class="rightquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                                </span>
+                                            </div>
+                                    </div>
+                                    <!-- ========================== -->
+                                    <div class="testimonialssdata item">
+                                            <div class="userimagesdesignation">
+                                                <div class="userimages">
+                                                    <img src="img/testimonials-4.jpg" alt="">
+                                                </div>
+                                                <div class="userdata">
+                                                    <h3>
+                                                        Matt Brandon
+                                                    </h3>
+                                                    <p>
+                                                        Freelancer
+                                                    </p>
+                                                    <div class="rating">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ===================== -->
+                                            <div class="testimonialsquotes">
+                                                <span class="leftquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                                                </span>
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint porro non temporibus sed at eligendi maxime dolorum explicabo quae?
+                                                </p>
+                                                <span class="rightquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                                </span>
+                                            </div>
+                                    </div>
+                                    <!-- ========================== -->
+                                    <div class="testimonialssdata item">
+                                            <div class="userimagesdesignation">
+                                                <div class="userimages">
+                                                    <img src="img/testimonials-5.jpg" alt="">
+                                                </div>
+                                                <div class="userdata">
+                                                    <h3>
+                                                        John Larson
+                                                    </h3>
+                                                    <p>
+                                                        Enterpreneur
+                                                    </p>
+                                                    <div class="rating">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ===================== -->
+                                            <div class="testimonialsquotes">
+                                                <span class="leftquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                                                </span>
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sint porro non temporibus sed at eligendi maxime dolorum explicabo quae?
+                                                </p>
+                                                <span class="rightquote">
+                                                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                                                </span>
+                                            </div>
+                                    </div>
+                                    <!-- ========================== -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- ========================= -->
+        <section id="blogsection" class="parentblogsectioncontainer">
+                <div class="blogtitleandparagraph">
+                   <div class="blogpart">
+                        <div class="bar"></div>
+                        <div class="serheading serheading2">
+                            <h2>
+                                Recent POsts
+                            </h2>
+                        </div>
+                        <div class="bar"></div>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, odio delectus maiores alias excepturi!
+                    </p>
+                </div>
+                <!-- ======================= -->
+                <div class="blogdetailed">
+                    <div class="blogpostdata">
+                        <div class="postimages">
+                            <img src="img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="blogpostdetailed">
+                            <p>
+                                Politics
+                            </p>
+                            <h3>
+                                Dolorum optio tempore voluptas dignissimos
+                            </h3>
+                            <div class="blogpostauthordetailed">
+                                <div class="authorblogimage">
+                                    <img src="img/blog-author-2.jpg" alt="">
+                                </div>
+                                <div class="authornameanddate">
+                                    <strong>
+                                        Maria Doe
+                                    </strong>
+                                    <p class="date">
+                                        Jan 1,2022
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======================= -->
+                    <div class="blogpostdata">
+                            <div class="postimages">
+                                <img src="img/blog-2.jpg" alt="">
+                            </div>
+                            <div class="blogpostdetailed">
+                                <p>
+                                    Sports
+                                </p>
+                                <h3>
+                                    Nisi magni odit consequatur autem nulla dolorem
+                                </h3>
+                                <div class="blogpostauthordetailed">
+                                    <div class="authorblogimage">
+                                        <img src="img/blog-author-4.jpg" alt="">
+                                    </div>
+                                    <div class="authornameanddate">
+                                        <strong>
+                                            Allisa Mayer
+                                        </strong>
+                                        <p class="date">
+                                            Jun 5,2022
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- ======================= -->
+                    <div class="blogpostdata b-3">
+                            <div class="postimages">
+                                <img src="img/blog-3.jpg" alt="">
+                            </div>
+                            <div class="blogpostdetailed">
+                                <p>
+                                    Entertainment
+                                </p>
+                                <h3>
+                                    Possimus soluta ut id suscipit ea ut in quo quia et soluta
+                                </h3>
+                                <div class="blogpostauthordetailed">
+                                    <div class="authorblogimage">
+                                        <img src="img/blog-author-3.jpg" alt="">
+                                    </div>
+                                    <div class="authornameanddate">
+                                        <strong>
+                                            Mark Dower
+                                        </strong>
+                                        <p class="date">
+                                            Jan 1,2022
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- ======================= -->
+                </div>
+        </section>
+        <!-- ======================== -->
+        <section id="contactsection" class="parentcontactcontainer">
+                <div class="contacttitleandparagraph">
+                    <div class="contactpart">
+                        <div class="bar"></div>
+                        <div class="serheading">
+                            <h2>
+                                Contact
+                            </h2>
+                            </div>
+                            <div class="bar"></div>
+                        </div>
+                        <p>
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur, odio delectus maiores alias excepturi!
+                        </p>
+                </div>
+            <div class="detailedcontactcontainer">
+                <div class="addressandotherdetailed">
+                    <div class="timingdetailedrow">
+                        <div class="addressbox">
+                            <div class="addressicons">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            </div>
+                            <h3>
+                                Address
+                            </h3>
+                            <p>
+                                A108,Adam Street
+                            </p>
+                            <p>
+                                New york, NY 535022
+                            </p>
+                        </div>
+                        <!-- ================= -->
+                        <div class="addressbox">
+                                <div class="addressicons">
+                                    <i class="fa-sharp fa-solid fa-phone"></i>
+                                </div>
+                                <h3>
+                                    Call Us
+                                </h3>
+                                <p>
+                                    +123 123456789
+                                </p>
+                                <p>
+                                    +123 123456789
+                                </p>
+                        </div>
+                    </div>
+                    <!-- ======================= -->
+                    <div class="timingdetailedrow">
+                            <div class="addressbox">
+                                <div class="addressicons">
+                                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                                </div>
+                                <h3>
+                                    Email US
+                                </h3>
+                                <p>
+                                    Info@exapmle.com
+                                </p>
+                                <p>
+                                    Contact@exapmle.com
+                                </p>
+                            </div>
+                            <!-- ================= -->
+                            <div class="addressbox">
+                                    <div class="addressicons">
+                                            <i class="fa-sharp fa-solid fa-clock"></i>
+                                    </div>
+                                    <h3>
+                                        Open Hours
+                                    </h3>
+                                    <p>
+                                        Monday -  Friday
+                                    </p>
+                                    <p>
+                                        09:00AM - 05:00AM
+                                    </p>
+                            </div>
+                    </div>
+                </div>
+                <!-- ======================= -->
+                <div class="contactscontainer">
+                    <form action="####" class="formdesign">
+                        <div class="formrow">
+                            <input type="text" placeholder="Your Name" class="nameandemailproperty">
+                            <input type="email" placeholder="Your Email" class="nameandemailproperty">
+                        </div>
+                        <div class="formrow">
+                            <input type="text" placeholder="Subject" class="subjectproperty">
+                        </div>
+                        <div class="formrow">
+                            <textarea name="message" id="usermessage" placeholder="Message" cols="30" rows="6" class="messageproperty"></textarea>
+                        </div>
+                        <button id="btnsendmessage" class="btnreadmoreproperty btnsextraclass btnextraclass2">
+                            Send Message
+                        </button>
+                    </form>
+                    <!-- ================== -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ========== end of main body ============ -->
+    <footer>
+        <div class="footerparentcontainer">
+            <div class="footerupperparts">
+                <div class="companyname">
+                    <h2>
+                        xyz
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem voluptatibus itaque repellat impedit aut libero earum natus voluptates vero totam voluptatum, ipsam quisquam quos, aliquid, tempora illo tenetur! Aut, quisquam!
+                    </p>
+                    <div class="iconssocilamedia">
+                        <div class="twitter">
+                            <a class="fa-brands fa-square-facebook" href="###"></a>
+                        </div>
+                        <div class="twitter">
+                            <a class="fa-brands fa-square-twitter" href="###"></a>
+                        </div>
+                        <div class="twitter">
+                            <a class="fa-brands fa-square-instagram" href="###"></a>
+                        </div>
+                        <div class="twitter">
+                            <a class="fa-brands fa-linkedin" href="###"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <h4>
+                        Useful Links
+                    </h4>
+                    <a href="#">
+                        Home
+                    </a>
+                    <a href="#">
+                        About US
+                    </a>
+                    <a href="#">
+                        Services
+                    </a>
+                    <a href="#">
+                        Terms Of Services
+                    </a>
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+                </div>
+                <div class="ourservices">
+                       <h4>
+                           Our Services
+                       </h4>
+                        <a href="#">
+                            Web Design
+                        </a>
+                        <a href="#">
+                            Web Development
+                        </a>
+                        <a href="#">
+                            Product Management
+                        </a>
+                        <a href="#">
+                            Marketing
+                        </a>
+                        <a href="#">
+                            Graphic Design
+                        </a>
+                </div>
+                <div class="contactus">
+                    <h4>
+                        Contact US
+                    </h4>
+                    <p>
+                        A108 Adam Street New York, NY 535022 United States
+                    </p>
+                    <p>
+                        <div class="paragraphicc">
+                            <strong>
+                                Phone:
+                            </strong>
+                            <p>
+                                +12345678
+                            </p>
+                        </div>
+                        
+                        <div class="paragraphicc">
+                            <strong>
+                                Email:
+                            </strong>
+                            <p>
+                                Info@email.com
+                            </p>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="footerlowerparts">
+                <p>
+                 &copy; copyright <strong>abc</strong> All rights reserved
+                </p>
+                Designed by <a href="##">Afaq Ahmed Awan</a>
+            </div>
+        </div>
+        <div id="toparrow" class="arrowtotop">
+            <a href="#" class="fa-sharp fa-solid fa-arrow-up"></a>
+        </div>
+    </footer>
+</body>
+</html>

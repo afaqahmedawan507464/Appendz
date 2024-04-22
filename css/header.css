@@ -1,0 +1,267 @@
+.parentheadersection{
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#linkdata7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 5%;
+}
+.childmenuarrow{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-left: 10%;
+
+}
+/* .parentheadersection::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    inset: 0;
+} */
+.compnayname{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 9%;
+    margin: 0% 0.5%;
+}
+.compnayname h1{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.compnayname span p{
+    font-size: 3rem;
+    color: red;
+}
+/* ===================== */
+.desktopnavigationmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+}
+/* .desktopnavigationmenu nav{
+    padding: 20px;
+} */
+.desktopnavigationmenu nav ul{
+    list-style-type: none;
+}
+.desktopnavigationmenu nav ul li{
+    display: inline;
+    position: relative;
+}
+.desktopnavigationmenu nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.desktopnavigationmenu nav ul .listindicator a:hover{
+    color: red !important;
+}
+.desktopnavigationmenu nav ul .listindicator a.active{
+    color: red !important;
+}
+.desktopnavigationmenu nav ul li:visited > ul {
+    display: flex;
+}
+ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin: 20% 0%;
+    box-shadow: 0px 0px 5px 0px whitesmoke;
+}
+ul ul li{
+    text-decoration: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    color: black;
+}
+ul ul li a{
+    color: black;
+}
+ul ul li a:hover{
+    font-weight: 200;
+}
+.border{
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+/* ===================== */
+.buttonsdiv{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 9%;
+    margin: 0% 0.5%;
+}
+.buttonsdiv button{
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.buttonsdiv button:hover{
+    background-color: #C53C3B;
+    border: 2px solid #C53C3B;
+}
+/* ====================== */
+.mobilemenuheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    flex-direction: column;
+    cursor: pointer;   
+    border: 2px solid red;
+    padding: 10px 5px;
+    display: none;
+}
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 5px;
+    background-color:whitesmoke;
+    margin: 3px 0;
+    transition: 0.9s;
+}
+  
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+/* ========================= */
+.mobilenavigationmenu{
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 96vw;
+    height: 96vh;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 5px 15px;
+    margin: 2% auto;
+    display: flex;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 0px lightgray;
+}
+.mobilenavigationmenu nav ul{
+    list-style-type: none;
+}
+.mobilenavigationmenu nav ul li{
+    margin: 5px 0px;
+    padding: 10px;
+    width: 100%;
+}
+.mobilenavigationmenu nav ul li a{
+    text-decoration: none;
+    padding: 2px 15px;
+    cursor: pointer;
+    color: black;
+
+}
+.mobilenavigationmenu i{
+    color: black;
+    font-size: 1.8rem;
+    align-self: flex-end;
+}
+.mobilenavigationmenu nav ul li a:hover{
+    color: red !important;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    font-weight: 400;
+}
+.border{
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+.mobilenavigationmenuhide{
+    display: none !important;
+}
+.dropdownchildmenu{
+    padding: 5px 20px;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.9s;
+    transition-delay: 0.5s;
+}
+.dropdownchildmenu li{
+    padding: 5px;
+    width: 99%;
+    margin: 1px 0px !important;
+    border: 0px solid red !important;
+}
+.dropdownchildmenu li a{
+    text-align: center !important;
+    align-self: center !important;
+}
+.dropdownchildmenu li a:hover{
+    color: red !important;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    font-weight: 400;
+}
+.dropdownchildmenuhide{
+    display: none !important;
+}
+.naigationsidediv{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+}
